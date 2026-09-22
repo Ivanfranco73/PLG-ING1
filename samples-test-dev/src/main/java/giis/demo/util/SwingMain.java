@@ -26,6 +26,7 @@ public class SwingMain {
 		EventQueue.invokeLater(new Runnable() { //NOSONAR codigo autogenerado
 			public void run() {
 				try {
+					System.out.print("Hello world!");
 					SwingMain window = new SwingMain();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
